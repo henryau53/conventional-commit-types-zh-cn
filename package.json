@@ -1,17 +1,24 @@
 {
-  "name": "conventional-commit-types",
-  "version": "3.0.0",
-  "description": "List of conventional commit types.",
+  "name": "conventional-commit-types-zh-cn",
+  "version": "3.0.1",
+  "description": "List of conventional commit types described in Simplified Chinese.",
   "main": "index.json",
   "scripts": {
     "test": "node index.spec"
   },
-  "keywords": [],
-  "author": "Anders D. Johnson",
+  "keywords": [
+    "commitizen",
+    "conventional-changelog",
+    "cz-conventional-changelog",
+    "cz-conventional-changelog-zh-cn",
+    "conventional-commit-types",
+    "conventional-commit-types-zh-cn"
+  ],
+  "author": "Henry Yau <henryau53@outlook.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/conventional-commit-types.git"
+    "url": "https://github.com/henryau53/conventional-commit-types-zh-cn.git"
   },
   "devDependencies": {
     "jsonschema": "^1.4.0"
