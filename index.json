@@ -2,48 +2,48 @@
   "$schema": "./index.spec.json",
   "types": {
     "feat": {
-      "description": "A new feature",
-      "title": "Features"
+      "description": "添加新功能或功能性变化",
+      "title": "特性"
     },
     "fix": {
-      "description": "A bug fix",
-      "title": "Bug Fixes"
+      "description": "修复 bug",
+      "title": "问题修复"
     },
     "docs": {
-      "description": "Documentation only changes",
-      "title": "Documentation"
+      "description": "仅文档变更",
+      "title": "文档"
     },
     "style": {
-      "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
-      "title": "Styles"
+      "description": "不影响代码运行的代码样式变更（例如空白符，格式化，分号等）",
+      "title": "样式"
     },
     "refactor": {
-      "description": "A code change that neither fixes a bug nor adds a feature",
-      "title": "Code Refactoring"
+      "description": "重构代码，既不新增功能，也不是修复 bug",
+      "title": "代码重构"
     },
     "perf": {
-      "description": "A code change that improves performance",
-      "title": "Performance Improvements"
+      "description": "提升性能的代码变更",
+      "title": "性能提升"
     },
     "test": {
-      "description": "Adding missing tests or correcting existing tests",
-      "title": "Tests"
+      "description": "增加或修改测试用例",
+      "title": "测试"
     },
     "build": {
-      "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
-      "title": "Builds"
+      "description": "对构建过程或构建依赖的变更（范围示例：gulp、broccoli、npm）",
+      "title": "构建"
     },
     "ci": {
-      "description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)",
-      "title": "Continuous Integrations"
+      "description": "对持续集成（CI）相关配置文件或脚本的变更（范围示例：Travis、Circle）",
+      "title": "持续集成"
     },
     "chore": {
-      "description": "Other changes that don't modify src or test files",
-      "title": "Chores"
+      "description": "未对源（src）代码与测试（test）文件进行变更的其他变更",
+      "title": "其他"
     },
     "revert": {
-      "description": "Reverts a previous commit",
-      "title": "Reverts"
+      "description": "恢复之前的提交",
+      "title": "恢复"
     }
   }
 }
