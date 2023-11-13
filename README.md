@@ -1,9 +1,9 @@
 # conventional-commit-types
 
-[![npm](https://img.shields.io/npm/v/conventional-commit-types.svg?maxAge=2592000)](https://www.npmjs.com/package/conventional-commit-types)
-[![Build Status](https://img.shields.io/travis/commitizen/conventional-commit-types.svg?maxAge=2592000)](https://travis-ci.org/commitizen/conventional-commit-types)
+[![npm version](https://img.shields.io/npm/v/conventional-commit-types-zh-cn.svg?style=flat-square)](https://www.npmjs.org/package/conventional-commit-types-zh-cn)
+[![npm downloads](https://img.shields.io/npm/dt/conventional-commit-types-zh-cn)](http://npm-stat.com/charts.html?package=conventional-commit-types-zh-cn&from=2023-11-01)
 
-List of conventional commit types.
+List of conventional commit types described in Simplified Chinese.
 
 ## Spec
 
@@ -13,7 +13,7 @@ Exports an object with a `types` key whose value is an object whose keys are typ
 
 Used by [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog) for [commitizen/cz-cli](https://github.com/commitizen/cz-cli).
 
-Can be used with [kentcdodds/validate-commit-msg](https://github.com/kentcdodds/validate-commit-msg#types).
+**(Archived)** Can be used with [kentcdodds/validate-commit-msg](https://github.com/kentcdodds/validate-commit-msg#types).
 
 Commit types originally from:
 * [Angular Git Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
